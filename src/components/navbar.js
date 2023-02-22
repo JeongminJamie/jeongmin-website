@@ -1,9 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import Navbar from "./navbar"
-
-const Header = ({ siteTitle }) => (
+const Navbar = () => (
   <header
     style={{
       margin: `0 auto`,
@@ -22,8 +20,7 @@ const Header = ({ siteTitle }) => (
     >
       Jeongmin Choi
     </Link>
-    <Navbar />
   </header>
 )
 
-export default Header
+export default Navbar
