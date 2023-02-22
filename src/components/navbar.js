@@ -17,10 +17,38 @@ const Navbar = () => (
     </div>
     <div>
       <ul className="menu">
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>PROJECTS</li>
-        <li>CONTACT</li>
+        <Link
+          to="/"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>HOME</li>
+        </Link>
+        <Link
+          to="/"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>ABOUT</li>
+        </Link>
+        <Link
+          to="/"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>PROJECTS</li>
+        </Link>
+        <Link
+          to="/"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>CONTACT</li>
+        </Link>
       </ul>
     </div>
   </nav>
