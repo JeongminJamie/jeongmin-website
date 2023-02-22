@@ -2,15 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Navbar = () => (
-  <header
-    style={{
-      margin: `0 auto`,
-      padding: `var(--space-4) var(--size-gutter)`,
-      display: `flex`,
-      alignItems: `center`,
-      justifyContent: `space-between`,
-    }}
-  >
+  <nav className="navbar">
     <Link
       to="/"
       style={{
@@ -18,9 +10,15 @@ const Navbar = () => (
         textDecoration: `none`,
       }}
     >
-      Jeongmin Choi
+      <span>Jeongmin Choi</span>
     </Link>
-  </header>
+    <ul>
+      <li>HOME</li>
+      <li>ABOUT</li>
+      <li>PROJECTS</li>
+      <li>CONTACT</li>
+    </ul>
+  </nav>
 )
 
 export default Navbar
