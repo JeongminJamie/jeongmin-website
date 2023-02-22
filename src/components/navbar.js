@@ -1,28 +1,22 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import "./navbar.css"
+
 const Navbar = () => (
-  <nav
-    className="navbar"
-    style={{
-      margin: `0 auto`,
-      padding: `var(--space-4) var(--size-gutter)`,
-      display: `flex`,
-      justifyContent: `space-between`,
-    }}
-  >
+  <nav className="navbar">
     <div>
-      <Link to="/">
+      <Link
+        to="/"
+        style={{
+          textDecoration: `none`,
+        }}
+      >
         <span>Jeongmin Choi</span>
       </Link>
     </div>
     <div>
-      <ul
-        style={{
-          display: `flex`,
-          listStyle: `none`,
-        }}
-      >
+      <ul className="menu">
         <li>HOME</li>
         <li>ABOUT</li>
         <li>PROJECTS</li>
