@@ -12,7 +12,7 @@ const Navbar = () => (
           textDecoration: `none`,
         }}
       >
-        <span>Jeongmin Choi</span>
+        <span>김규리 여행 가자고 여행 가자</span>
       </Link>
     </div>
     <div>
@@ -26,7 +26,7 @@ const Navbar = () => (
           <li>HOME</li>
         </Link>
         <Link
-          to="/"
+          to="/about"
           style={{
             textDecoration: `none`,
           }}
@@ -34,7 +34,7 @@ const Navbar = () => (
           <li>ABOUT</li>
         </Link>
         <Link
-          to="/"
+          to="/projects"
           style={{
             textDecoration: `none`,
           }}
@@ -42,7 +42,7 @@ const Navbar = () => (
           <li>PROJECTS</li>
         </Link>
         <Link
-          to="/"
+          to="/contact"
           style={{
             textDecoration: `none`,
           }}

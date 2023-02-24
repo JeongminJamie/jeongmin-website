@@ -11,3 +11,11 @@
   display: flex;
   gap: 10%;
 }
+
+li:hover {
+  color: blue;
+}
+
+.span.li {
+  font-weight: 900;
+}
