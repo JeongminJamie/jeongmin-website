@@ -12,7 +12,7 @@ const Navbar = () => (
           textDecoration: `none`,
         }}
       >
-        <span>김규리 여행 가자고 여행 가자</span>
+        <span>Jeongmin Choi</span>
       </Link>
     </div>
     <div>

@@ -1,4 +1,5 @@
 .navbar {
+  font-weight: bold;
   margin-left: 10%;
   margin-right: 10%;
   padding: 2em;
@@ -13,9 +14,13 @@
 }
 
 li:hover {
-  color: blue;
+  color: skyblue;
 }
 
-.span.li {
-  font-weight: 900;
+span {
+  font-weight: bold;
+}
+
+li {
+  font-weight: bold;
 }
