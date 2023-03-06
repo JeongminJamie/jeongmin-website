@@ -1,7 +1,6 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import "../components/cssFiles/index.module.css"
 
 const IndexPage = () => (
@@ -18,7 +17,5 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
-
-export const Head = () => <Seo title="Home" />
 
 export default IndexPage
