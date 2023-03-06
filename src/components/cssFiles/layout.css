@@ -119,8 +119,7 @@ fieldset,
 ul,
 ol,
 dl,
-dd,
-p {
+dd {
   margin: 0;
   padding: 0;
   margin-bottom: var(--space-4);
@@ -222,3 +221,14 @@ pre tt:after {
   content: none;
 }
 
+.indexContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
