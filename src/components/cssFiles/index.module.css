@@ -48,6 +48,9 @@
   text-align: center;
 }
 
+.contentInfo {
+  text-align: center;
+}
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
