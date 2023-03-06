@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import "../components/cssFiles/index.module.css"
+import "../components/cssFiles/index.css"
 
 const IndexPage = () => (
   <Layout>
