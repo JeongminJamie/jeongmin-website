@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -17,7 +18,11 @@ const IndexPage = () => (
         <p>A Full-stack Web Developer ready to make a difference in </p>
         <p>people's lives by changing the flow of the web</p>
       </div>
-      <div className="contentButton"></div>
+      <div classsName="projectsButton">
+        <Link to="/projects">
+          <button className="btn">PROJECTS</button>
+        </Link>
+      </div>
     </div>
   </Layout>
 )

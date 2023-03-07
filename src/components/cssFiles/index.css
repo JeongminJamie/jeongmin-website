@@ -53,3 +53,14 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.btn {
+  margin-top: 2em;
+  padding: 1rem 2rem;
+  background: skyblue;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  border-color: skyblue;
+}
