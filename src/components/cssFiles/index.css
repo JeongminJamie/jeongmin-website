@@ -57,10 +57,16 @@ p {
 .btn {
   margin-top: 2em;
   padding: 1rem 2rem;
-  background: skyblue;
+  background: rgb(166, 226, 250);
   letter-spacing: 1px;
   display: inline-block;
   font-weight: 700;
+  color: rgb(75, 65, 65);
   border-radius: 5px;
-  border-color: skyblue;
+  border-color: rgb(166, 226, 250);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
