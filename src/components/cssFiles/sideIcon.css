@@ -8,9 +8,21 @@
 }
 
 .githubProfile {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .linkedinProfile {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.iconLink {
+  width: 55px;
+  height: 65px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.iconLink:hover {
+  background-color: skyblue;
 }
