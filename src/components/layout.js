@@ -1,13 +1,11 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
 import SideIcon from "./sideIconBar"
 import "./cssFiles/layout.css"
-
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="home">
       <Navbar />
       <div className="middle_footer">
         <SideIcon />
@@ -31,7 +29,7 @@ const Layout = ({ children }) => {
           {` `}
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 
