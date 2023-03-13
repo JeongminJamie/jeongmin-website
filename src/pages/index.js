@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SideIcon from "../components/sideIcon"
 import Seo from "../components/seo"
 import "../components/cssFiles/index.css"
 
@@ -14,7 +13,6 @@ const IndexPage = () => (
         textAlign: `center`,
       }}
     >
-      {/* <SideIcon /> */}
       <h1>HI, I'M JEONGMIN CHOI</h1>
       <div className="contentInfo">
         <p>A Full-stack Web Developer ready to make a difference in </p>

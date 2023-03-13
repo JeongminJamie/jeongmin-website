@@ -4,13 +4,7 @@ import { Link } from "gatsby"
 import "./cssFiles/sideIcon.css"
 
 const SideIcon = () => (
-  <section
-    className="heroIcons"
-    style={{
-      marginLeft: 20,
-      marginRight: 20,
-    }}
-  >
+  <section className="heroIcons">
     <div className="github_icon">
       <Link to="https://github.com/JeongminJamie">
         <img
@@ -18,8 +12,8 @@ const SideIcon = () => (
           alt="Github profile"
           className="githubProfile"
           style={{
-            width: 25,
-            height: 25,
+            width: 30,
+            height: 30,
           }}
         />
       </Link>
@@ -31,8 +25,8 @@ const SideIcon = () => (
           alt="Linkedin profile"
           className="linkedinProfile"
           style={{
-            width: 25,
-            height: 25,
+            width: 30,
+            height: 30,
           }}
         />
       </Link>
@@ -44,8 +38,8 @@ const SideIcon = () => (
           alt="Resume profile"
           className="resumeProfile"
           style={{
-            width: 25,
-            height: 25,
+            width: 30,
+            height: 30,
           }}
         />
       </Link>

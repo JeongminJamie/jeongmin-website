@@ -10,18 +10,16 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       <div className="middle_footer">
-        <div className="icon_content">
-          <SideIcon />
-          <div
-            className="indexContent"
-            style={{
-              margin: `0 auto`,
-              maxWidth: `var(--size-content)`,
-              padding: `var(--size-gutter)`,
-            }}
-          >
-            <main>{children}</main>
-          </div>
+        <SideIcon />
+        <div
+          className="indexContent"
+          style={{
+            margin: `0 auto`,
+            maxWidth: `var(--size-content)`,
+            padding: `var(--size-gutter)`,
+          }}
+        >
+          <main>{children}</main>
         </div>
         <footer
           style={{
