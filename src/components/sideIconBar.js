@@ -1,9 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import "./cssFiles/sideIcon.css"
+import "./cssFiles/sideIconBar.css"
 
-const SideIcon = () => (
+const SideIconBar = () => (
   <section className="heroIcons">
     <div className="github_icon">
       <Link to="https://github.com/JeongminJamie" className="iconLink">
@@ -53,4 +53,4 @@ const SideIcon = () => (
   </section>
 )
 
-export default SideIcon
+export default SideIconBar

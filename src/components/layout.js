@@ -2,7 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
-import SideIcon from "./sideIcon"
+import SideIcon from "./sideIconBar"
 import "./cssFiles/layout.css"
 
 const Layout = ({ children }) => {
