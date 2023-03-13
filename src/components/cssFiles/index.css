@@ -44,12 +44,13 @@
   margin-top: var(--space-1);
 }
 
-.intro {
-  max-width: none;
-  line-height: var(--line-height-loose);
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
 }
 
 p {
+  font-size: 1.5em;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -60,7 +61,8 @@ p {
   background: rgb(166, 226, 250);
   letter-spacing: 1px;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1em;
   color: rgb(75, 65, 65);
   border-radius: 5px;
   border-color: rgb(166, 226, 250);

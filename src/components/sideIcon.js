@@ -12,8 +12,8 @@ const SideIcon = () => (
           alt="Github profile"
           className="githubProfile"
           style={{
-            width: 30,
-            height: 30,
+            width: 35,
+            height: 35,
           }}
         />
       </Link>
@@ -25,8 +25,8 @@ const SideIcon = () => (
           alt="Linkedin profile"
           className="linkedinProfile"
           style={{
-            width: 30,
-            height: 30,
+            width: 35,
+            height: 35,
           }}
         />
       </Link>
@@ -38,8 +38,8 @@ const SideIcon = () => (
           alt="Resume profile"
           className="resumeProfile"
           style={{
-            width: 30,
-            height: 30,
+            width: 35,
+            height: 35,
           }}
         />
       </Link>

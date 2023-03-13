@@ -12,7 +12,7 @@ const Navbar = () => (
           textDecoration: `none`,
         }}
       >
-        <span>Jeongmin Choi</span>
+        <span className="myName">Jeongmin Choi</span>
       </Link>
     </div>
     <div>
