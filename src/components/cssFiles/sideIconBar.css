@@ -4,6 +4,7 @@
   margin-right: 20px;
   margin-top: 50px;
   position: absolute;
+  background-color: white;
 }
 
 .githubProfile {
@@ -15,6 +16,8 @@
 }
 
 .iconLink {
+  margin-left: 10px;
+  margin-right: 10px;
   width: 55px;
   height: 65px;
   display: block;

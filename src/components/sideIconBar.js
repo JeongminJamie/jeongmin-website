@@ -12,8 +12,8 @@ const SideIconBar = () => (
           alt="Github profile"
           className="githubProfile"
           style={{
-            width: 35,
-            height: 35,
+            width: 40,
+            height: 40,
           }}
         />
       </Link>
@@ -28,8 +28,8 @@ const SideIconBar = () => (
           alt="Linkedin profile"
           className="linkedinProfile"
           style={{
-            width: 35,
-            height: 35,
+            width: 40,
+            height: 40,
           }}
         />
       </Link>
@@ -44,8 +44,8 @@ const SideIconBar = () => (
           alt="Resume profile"
           className="resumeProfile"
           style={{
-            width: 35,
-            height: 35,
+            width: 40,
+            height: 40,
           }}
         />
       </Link>
