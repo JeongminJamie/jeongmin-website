@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import "./cssFiles/header.css"
+import face from "../images/myFace.jpeg"
 
 const Header = () => (
   <div className="header_main">
@@ -12,7 +13,10 @@ const Header = () => (
           textDecoration: `none`,
         }}
       >
-        <span className="myName">Jeongmin Choi</span>
+        <div className="faceLogo_name">
+          <img src={face} className="header_face" />
+          <span className="myName">Jeongmin Choi</span>
+        </div>
       </Link>
     </div>
     <div className="header_nav">
