@@ -1,29 +1,57 @@
-// import * as React from "react"
-// import { Link } from "gatsby"
+import * as React from "react"
+import { Link } from "gatsby"
 
-// import Navbar from "./navbar"
+import "./cssFiles/header.css"
 
-// const Header = ({ siteTitle }) => (
-//   <header
-//     style={{
-//       margin: `0 auto`,
-//       padding: `var(--space-4) var(--size-gutter)`,
-//       display: `flex`,
-//       alignItems: `center`,
-//       justifyContent: `space-between`,
-//     }}
-//   >
-//     <Link
-//       to="/"
-//       style={{
-//         fontSize: `var(--font-sm)`,
-//         textDecoration: `none`,
-//       }}
-//     >
-//       Jeongmin Choi
-//     </Link>
-//     <Navbar />
-//   </header>
-// )
+const Header = () => (
+  <div className="header_main">
+    <div>
+      <Link
+        to="/"
+        style={{
+          textDecoration: `none`,
+        }}
+      >
+        <span className="myName">Jeongmin Choi</span>
+      </Link>
+    </div>
+    <div className="header_nav">
+      <ul className="nav">
+        <Link
+          to="/"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>HOME</li>
+        </Link>
+        <Link
+          to="/about"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>ABOUT</li>
+        </Link>
+        <Link
+          to="/projects"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>PROJECTS</li>
+        </Link>
+        <Link
+          to="/contact"
+          style={{
+            textDecoration: `none`,
+          }}
+        >
+          <li>CONTACT</li>
+        </Link>
+      </ul>
+    </div>
+  </div>
+)
 
-// export default Header
+export default Header

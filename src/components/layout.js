@@ -1,12 +1,12 @@
 import * as React from "react"
 
-import Navbar from "./navbar"
+import Header from "./header"
 import SideIcon from "./sideIconBar"
 import "./cssFiles/layout.css"
 const Layout = ({ children }) => {
   return (
     <div className="home">
-      <Navbar />
+      <Header />
       <div className="middle_footer">
         <SideIcon />
         <div
