@@ -15,8 +15,8 @@ const IndexPage = () => (
     >
       <h1>HI, I'M JEONGMIN CHOI</h1>
       <div className="contentInfo">
-        <p>A Full-stack Web Developer ready to make a difference in </p>
-        <p>people's lives by changing the flow of the web</p>
+        <p>A Full-stack Web Developer ready to make a difference </p>
+        <p> in people's lives by changing the flow of the web</p>
       </div>
       <div classsName="projectsButton">
         <Link to="/projects">

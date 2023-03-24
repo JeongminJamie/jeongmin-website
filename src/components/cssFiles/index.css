@@ -58,7 +58,6 @@ p {
 .btn {
   margin-top: 4em;
   padding: 1rem 2rem;
-  width: 40%;
   background: rgb(166, 226, 250);
   letter-spacing: 1px;
   display: inline-block;
@@ -75,5 +74,9 @@ p {
 }
 
 .homeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 8em;
 }
