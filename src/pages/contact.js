@@ -1,7 +1,10 @@
 import { React, useRef } from "react"
+import emailjs from "@emailjs/browser"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
+import "../components/cssFiles/contact.css"
 
 const Contact = () => {
   const form = useRef()
@@ -29,11 +32,11 @@ const Contact = () => {
   return (
     <Layout>
       <div className="contactContainer">
-        <h2 className="--text--center">Contact Me</h2>
+        <h2 className="contactText">Contact Me</h2>
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="--form-control --card --flex-center --dir-column"
+          className="emailForm"
         >
           <input
             type="text"
