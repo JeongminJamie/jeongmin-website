@@ -32,36 +32,47 @@ const Contact = () => {
     <Layout>
       <div className="contactContainer">
         <h2 className="contactText">Contact Me</h2>
-        <form ref={form} onSubmit={sendEmail} className="emailForm">
-          <input
-            type="text"
-            placeholder="Your Name"
-            name="user_name"
-            required
-          />
-          <input
-            type="email"
-            placeholder="Your Email"
-            name="user_email"
-            required
-          />
-          <input
-            type="text"
-            placeholder="Your Message"
-            name="user_message"
-            required
-          />
-          <textarea name="message" cols="30" rows="10">
-            <button type="submit" className="--btn --btn-primary">
+        <section className="formContainer">
+          <form ref={form} onSubmit={sendEmail} className="emailForm">
+            <label>Name</label>
+            <input
+              className="nameInput"
+              type="text"
+              placeholder="Enter Your Name"
+              name="user_name"
+              required
+            />
+            <label>Email</label>
+            <input
+              className="emailInput"
+              type="email"
+              placeholder="Enter Your Email"
+              name="user_email"
+              required
+            />
+            <label>Message</label>
+            <textarea
+              className="messageInput"
+              type="text"
+              placeholder="Enter Your Message"
+              name="user_message"
+              required
+              cols="30"
+              rows="10"
+              style={{
+                resize: "none",
+              }}
+            />
+            <button type="submit" className="submitBtn">
               Submit
             </button>
-          </textarea>
-        </form>
+          </form>
+        </section>
       </div>
     </Layout>
   )
 }
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo title="Contact Jeongmin" />
 
 export default Contact

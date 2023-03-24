@@ -78,5 +78,18 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 12%;
   margin-bottom: 8em;
+}
+
+.nameInput {
+  margin-bottom: 2em;
+}
+
+.emailInput {
+  margin-bottom: 2em;
+}
+
+.messageInput {
+  margin-bottom: 2em;
 }

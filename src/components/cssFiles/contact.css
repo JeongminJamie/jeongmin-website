@@ -1,11 +1,22 @@
+.formContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
 .contactText {
   font-size: 2.5em;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .emailForm {
   display: flex;
   flex-direction: column;
+}
+
+.submitBtn {
+  display: flex;
+  width: 30%;
 }
