@@ -1,11 +1,13 @@
 .formContainer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white;
   padding: 30px;
   border-radius: 10px;
+  margin-bottom: 0;
 }
 
 .contactText {
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   margin-top: 0;
   margin-bottom: 3rem;
@@ -18,5 +20,38 @@
 
 .submitBtn {
   display: flex;
-  width: 30%;
+  justify-content: center;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 0.7em 0.7em;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(75, 65, 65);
+  background: rgb(166, 226, 250);
+  border-color: rgb(166, 226, 250);
+  border-radius: 5%;
+  transition: all 0.2s ease-in-out;
+}
+
+.submitBtn:hover {
+  transform: scale(1.1);
+}
+
+.nameInput {
+  margin-top: 5px;
+  margin-bottom: 2em;
+  height: 40px;
+}
+
+.emailInput {
+  margin-top: 5px;
+  margin-bottom: 2em;
+  height: 40px;
+}
+
+.messageInput {
+  margin-top: 5px;
+  margin-bottom: 2em;
+  height: 13em;
 }
