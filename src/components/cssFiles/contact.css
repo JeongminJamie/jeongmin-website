@@ -19,6 +19,9 @@
   margin: 0 auto;
 }
 
+.contactContent {
+  font-size: 20px;
+}
 .contactMe {
   font-size: 2em;
 }
@@ -52,16 +55,23 @@
   margin-top: 5px;
   margin-bottom: 2em;
   height: 40px;
+  padding: 10px;
 }
 
 .emailInput {
   margin-top: 5px;
   margin-bottom: 2em;
   height: 40px;
+  padding: 10px;
 }
 
 .messageInput {
   margin-top: 5px;
   margin-bottom: 2em;
   height: 13em;
+  padding: 10px;
+}
+
+.messageInput::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

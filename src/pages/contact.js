@@ -33,7 +33,7 @@ const Contact = () => {
       <div className="contactContainer">
         <div className="contactText">
           <h2 className="contactMe">Contact Me</h2>
-          <p>Feel free to contact me with the form below</p>
+          <p className="contactContent">Feel free to contact me with the form below</p>
         </div>
         <section className="formContainer">
           <form ref={form} onSubmit={sendEmail} className="emailForm">
