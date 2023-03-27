@@ -7,10 +7,20 @@
 }
 
 .contactText {
-  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   text-align: center;
   margin-top: 0;
   margin-bottom: 3rem;
+}
+
+.contactText p {
+  margin: 0 auto;
+}
+
+.contactMe {
+  font-size: 2em;
 }
 
 .emailForm {

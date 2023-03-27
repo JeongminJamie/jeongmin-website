@@ -31,7 +31,10 @@ const Contact = () => {
   return (
     <Layout>
       <div className="contactContainer">
-        <h2 className="contactText">Contact Me</h2>
+        <div className="contactText">
+          <h2 className="contactMe">Contact Me</h2>
+          <p>Feel free to contact me with the form below</p>
+        </div>
         <section className="formContainer">
           <form ref={form} onSubmit={sendEmail} className="emailForm">
             <label>Name</label>
@@ -73,6 +76,6 @@ const Contact = () => {
   )
 }
 
-export const Head = () => <Seo title="Contact Jeongmin" />
+export const Head = () => <Seo title="Contact" />
 
 export default Contact
