@@ -6,7 +6,7 @@
   margin-bottom: 0;
 }
 
-.contactText {
+.contact {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -15,14 +15,11 @@
   margin-bottom: 3rem;
 }
 
-.contactText p {
-  margin: 0 auto;
-}
-
 .contactContent {
-  font-size: 20px;
+  margin: 0 auto;
+  font-size: 18px;
 }
-.contactMe {
+.contactMeText {
   font-size: 2em;
 }
 

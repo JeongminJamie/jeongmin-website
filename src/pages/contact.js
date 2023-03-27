@@ -31,8 +31,8 @@ const Contact = () => {
   return (
     <Layout>
       <div className="contactContainer">
-        <div className="contactText">
-          <h2 className="contactMe">Contact Me</h2>
+        <div className="contact">
+          <h2 className="contactMeText">Contact Me</h2>
           <p className="contactContent">Feel free to contact me with the form below</p>
         </div>
         <section className="formContainer">

@@ -1,15 +1,15 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
+import AboutMe from "../components/aboutMe"
 import Seo from "../components/seo"
 
-const NotFoundPage = () => (
+const About = () => (
   <Layout>
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <AboutMe />
   </Layout>
 )
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo title="About" />
 
-export default NotFoundPage
+export default About

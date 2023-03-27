@@ -1,0 +1,17 @@
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aboutMeText {
+  font-size: 2em;
+}
+
+.aboutMeContent {
+  max-width: fit-content;
+  font-size: 18px;
+}
