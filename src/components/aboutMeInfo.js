@@ -4,10 +4,12 @@ import "./cssFiles/aboutMeInfo.css"
 
 const AboutMeInfo = () => (
   <div className="aboutMeInfo">
-    <h2 className="aboutMeText">ABOUT ME</h2>
-    <p className="aboutMeContent">
-      More information about me, and current skills of programming here
-    </p>
+    <div className="introductionContainer">
+      <h3 className="introductionText">Introduction</h3>
+      <p className="introContent1">
+        More information about me, and current skills of programming here
+      </p>
+    </div>
   </div>
 )
 
