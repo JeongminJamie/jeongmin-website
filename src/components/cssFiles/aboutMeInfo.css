@@ -11,3 +11,21 @@
 .introContent {
   font-size: 17px;
 }
+
+.contactButton {
+  margin-top: 4em;
+  padding: 1rem 2rem;
+  background: rgb(166, 226, 250);
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 800;
+  font-size: 1em;
+  color: rgb(75, 65, 65);
+  border-radius: 5px;
+  border-color: rgb(166, 226, 250);
+  transition: all 0.2s ease-in-out;
+}
+
+.contactButton:hover {
+  transform: scale(1.1);
+}
