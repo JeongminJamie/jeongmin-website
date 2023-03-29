@@ -3,6 +3,7 @@ import * as React from "react"
 import Header from "./header"
 import SideIcon from "./sideIconBar"
 import "./cssFiles/layout.css"
+
 const Layout = ({ children }) => {
   return (
     <div className="home">
@@ -13,7 +14,7 @@ const Layout = ({ children }) => {
           className="indexContent"
           style={{
             margin: `0 auto`,
-            maxWidth: `var(--size-content)`,
+            // maxWidth: `var(--size-content)`,
             padding: `var(--size-gutter)`,
           }}
         >
