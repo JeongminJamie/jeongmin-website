@@ -1,11 +1,13 @@
 .aboutMeInfo {
   display: flex;
   flex-direction: row;
+  margin-top: 4em;
 }
 
 .introductionText {
   font-size: 1.5em;
   margin: 0;
+  margin-bottom: 1.5em;
 }
 
 .introContent {
@@ -13,7 +15,7 @@
 }
 
 .contactButton {
-  margin-top: 4em;
+  margin-top: 2em;
   padding: 1rem 2rem;
   background: rgb(166, 226, 250);
   letter-spacing: 1px;
