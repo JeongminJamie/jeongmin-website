@@ -31,6 +31,14 @@ const AboutMeInfo = () => (
         </div>
       </div>
     </div>
+    <div className="aboutMeSkillContainer">
+      <div className="skill">1</div>
+      <div className="skill">2</div>
+      <div className="skill">3</div>
+      <div className="skill">4</div>
+      <div className="skill">5</div>
+      <div className="skill">6</div>
+    </div>
   </div>
 )
 
