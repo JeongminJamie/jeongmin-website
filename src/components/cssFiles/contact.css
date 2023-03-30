@@ -1,3 +1,9 @@
+.wholeContact {
+  background-color: rgb(208, 237, 233);
+  background-image: none;
+  color: rgb(75, 65, 65);
+}
+
 .formContainer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white;
