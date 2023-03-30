@@ -34,12 +34,20 @@ const AboutMeInfo = () => (
     <div className="aboutMeSkillContainer">
       <h3 className="skillText">My Skills</h3>
       <div className="skillsContainer">
-        <div className="skill">1</div>
-        <div className="skill">2</div>
-        <div className="skill">3</div>
-        <div className="skill">4</div>
-        <div className="skill">5</div>
-        <div className="skill">6</div>
+        <div className="skill">Javascript</div>
+        <div className="skill">Node</div>
+        <div className="skill">React</div>
+        <div className="skill">Express</div>
+        <div className="skill">jQuery</div>
+        <div className="skill">Ajax</div>
+        <div className="skill">EJS</div>
+        <div className="skill">HTML</div>
+        <div className="skill">CSS</div>
+        <div className="skill">SASS</div>
+        <div className="skill">Bootstrap</div>
+        <div className="skill">SQL</div>
+        <div className="skill">Git</div>
+        <div className="skill">Github</div>
       </div>
     </div>
   </div>

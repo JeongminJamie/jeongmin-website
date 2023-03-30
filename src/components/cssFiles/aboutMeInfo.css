@@ -3,20 +3,22 @@
   display: flex;
   flex-direction: row;
   margin: 4em 10% 2em 10%;
+  gap: 5em;
 }
 
 .introductionContainer {
   width: 50%;
-  margin-right: 4rem;
 }
 
 .introductionText {
+  color: rgb(75, 65, 65);
   font-size: 1.5em;
   margin: 0;
   margin-bottom: 1.5em;
 }
 
 .introContent {
+  color: rgb(75, 65, 65);
   font-size: 17px;
   margin-bottom: 1em;
 }
@@ -42,11 +44,12 @@
 .aboutMeSkillContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 4rem;
+  width: 50%;
 }
 
 .skillText {
   font-size: 1.5em;
+  color: rgb(75, 65, 65);
   margin: 0;
   margin-bottom: 1.5em;
 }
@@ -57,15 +60,13 @@
 }
 
 .skill {
-  display: inline-flex;
-  justify-content: center;
   padding: 1rem 2rem;
   width: fit-content;
   block-size: fit-content;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
-  font-size: 1rem;
-  background-color: rgba(153, 153, 153, 0.2);
+  font-size: 0.9rem;
+  background-color: rgba(147, 137, 137, 0.2);
   font-weight: 600;
   color: #666;
   border-radius: 10%;
