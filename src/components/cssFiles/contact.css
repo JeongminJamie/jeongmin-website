@@ -1,10 +1,5 @@
-.wholeContact {
-  background-color: rgb(208, 237, 233);
-  background-image: none;
-  color: rgb(75, 65, 65);
-}
-
 .formContainer {
+  color: rgb(75, 65, 65);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white;
   padding: 30px;
@@ -13,6 +8,7 @@
 }
 
 .contact {
+  color: rgb(75, 65, 65);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -22,6 +18,7 @@
 }
 
 .contactContent {
+  color: rgb(75, 65, 65);
   margin: 0 auto;
   font-size: 18px;
 }
