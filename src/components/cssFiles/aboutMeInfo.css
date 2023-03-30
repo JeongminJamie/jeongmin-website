@@ -1,4 +1,5 @@
 .aboutMeInfo {
+  color: rgb(75, 65, 65);
   display: flex;
   flex-direction: row;
   margin: 4em 10% 2em 10%;
@@ -6,7 +7,9 @@
 
 .introductionContainer {
   width: 50%;
+  margin-right: 4rem;
 }
+
 .introductionText {
   font-size: 1.5em;
   margin: 0;
@@ -37,6 +40,18 @@
 }
 
 .aboutMeSkillContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.skillText {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+.skillsContainer {
   display: flex;
   flex-wrap: wrap;
 }
