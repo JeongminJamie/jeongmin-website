@@ -12,11 +12,13 @@ const AboutMeInfo = () => (
           I'm a <span>Full-stack web developer</span> always looking for the
           improvement points of website for high quality product. You can check
           my <span>projects</span> with various stacks clicking right{" "}
-          <span>Here.</span>
+          <Link to="/projects" style={{ textDecorationLine: `none` }}>
+            <span>Here.</span>
+          </Link>
         </p>
         <p className="introContent">
           I'm willing to share my <span>experiences</span> what I've learned in{" "}
-          <span>Web Development.</span> Also, I'm eager to learn and adopt to
+          <span>Web Development.</span> Also, I'm eager to learn and adapt to
           fast transitions of programming.
         </p>
         <p className="introContent">
