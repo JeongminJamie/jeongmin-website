@@ -6,11 +6,15 @@ import ProjectsInfo from "../components/projectsInfo"
 
 import Seo from "../components/seo"
 
+import "../components/cssFiles/projects.css"
+
 const Projects = () => (
-  <Layout>
-    <TopProjects />
-    <ProjectsInfo />
-  </Layout>
+  <body className="wholeProjects">
+    <Layout>
+      <TopProjects />
+      <ProjectsInfo />
+    </Layout>
+  </body>
 )
 
 export const Head = () => <Seo title="Projects" />
