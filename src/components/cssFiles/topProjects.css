@@ -1,0 +1,17 @@
+.topProjects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.topProjectsText {
+  font-size: 2em;
+}
+
+.topProjectsContent {
+  max-width: fit-content;
+  font-size: 20px;
+}
