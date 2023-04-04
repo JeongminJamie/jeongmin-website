@@ -2,7 +2,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import "./cssFiles/header.css"
-import face from "../images/myFace.jpeg"
+// import face from "../images/myFace.jpeg"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
   <div className="header_main">
@@ -14,7 +15,7 @@ const Header = () => (
         }}
       >
         <div className="faceLogo_name">
-          <img src={face} className="header_face" />
+          <StaticImage src="../images/myFace.jpeg" className="header_face" />
           <span className="myName">Jeongmin Choi</span>
         </div>
       </Link>
