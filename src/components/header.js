@@ -14,7 +14,9 @@ const Header = () => (
         }}
       >
         <div className="faceLogo_name">
-          <StaticImage src="../images/myFace.jpeg" className="header_face" />
+          <div className="faceLogo_img">
+            <StaticImage src="../images/myFace.jpeg" className="header_face" />
+          </div>
           <span className="myName">Jeongmin Choi</span>
         </div>
       </Link>
