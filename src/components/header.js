@@ -16,7 +16,7 @@ const Header = () => (
         <div className="faceLogo_name">
           <div className="faceLogo_img">
             <StaticImage
-              src="../images/myFace.jpeg"
+              src="../images/myFace2.jpeg"
               className="header_face"
               alt="My face"
             />
