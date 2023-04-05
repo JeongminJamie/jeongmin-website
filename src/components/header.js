@@ -15,11 +15,11 @@ const Header = () => (
       >
         <div className="faceLogo_name">
           <div className="faceLogo_img">
-            <StaticImage
+            {/* <StaticImage
               src="../images/myFace2.jpeg"
               className="header_face"
               alt="My face"
-            />
+            /> */}
           </div>
           <span className="myName">Jeongmin Choi</span>
         </div>

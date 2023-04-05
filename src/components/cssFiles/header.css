@@ -56,6 +56,9 @@ ul {
   margin-right: 15px;
   margin-top: 7px;
   overflow: hidden;
+
+  background-image: url(../../images/background1.jpg);
+  background-size: cover;
 }
 
 .faceLogo_img .header_face {
