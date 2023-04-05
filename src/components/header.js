@@ -21,6 +21,7 @@ const Header = () => (
               height={200}
               className="header_face"
               alt="My face"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
           </div>
           <span className="myName">Jeongmin Choi</span>
