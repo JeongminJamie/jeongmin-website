@@ -8,10 +8,13 @@ import Seo from "../components/seo"
 
 import "../components/cssFiles/projects.css"
 
+import { StaticImage } from "gatsby-plugin-image"
+
 const Projects = () => (
   <body className="wholeProjects">
     <Layout>
       <TopProjects />
+      <StaticImage src="../images/myFace.jpeg" />
       <ProjectsInfo />
     </Layout>
   </body>
