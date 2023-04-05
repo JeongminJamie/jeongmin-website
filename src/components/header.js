@@ -20,6 +20,7 @@ const Header = () => (
               width={200}
               height={200}
               className="header_face"
+              alt="My face"
             />
           </div>
           <span className="myName">Jeongmin Choi</span>
@@ -65,4 +66,5 @@ const Header = () => (
   </div>
 )
 
+console.log(StaticImage)
 export default Header
