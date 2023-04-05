@@ -17,11 +17,8 @@ const Header = () => (
           <div className="faceLogo_img">
             <StaticImage
               src="../images/myFace.jpeg"
-              width={200}
-              height={200}
               className="header_face"
               alt="My face"
-              transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
           </div>
           <span className="myName">Jeongmin Choi</span>
