@@ -5,9 +5,7 @@ import "./cssFiles/projectsInfo.css"
 const ProjectsInfo = () => (
   <div className="projects">
     <h2 className="projectsText">PROJECTS</h2>
-    <p className="projectsContent">
-      More information about me, and current skills of programming here
-    </p>
+    <p className="projectsContent">projects section</p>
   </div>
 )
 

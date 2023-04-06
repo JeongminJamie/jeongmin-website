@@ -56,15 +56,8 @@ ul {
   margin-right: 15px;
   margin-top: 7px;
   overflow: hidden;
-
   background-image: url(../../images/myFace2.jpeg);
   background-size: cover;
-}
-
-.faceLogo_img .header_face {
-  width: 100%;
-  object-position: left;
-  object-fit: cover;
 }
 
 .myName {
