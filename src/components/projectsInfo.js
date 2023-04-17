@@ -6,11 +6,11 @@ const ProjectsInfo = () => (
   <div className="projectsInfo">
     <div className="project">
       <StaticImage
+        className="talkieImg"
         src="../images/Talkie2.png"
         objectFit="cover"
         width={420}
         height={250}
-        className="talkieImg"
       />
       <div className="title">Talkie</div>
       <div className="description"></div>
