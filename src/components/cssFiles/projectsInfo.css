@@ -27,6 +27,7 @@
 .img {
   background-color: none;
   border-radius: 10px;
+  width: 35%;
 }
 
 .projectContent {
