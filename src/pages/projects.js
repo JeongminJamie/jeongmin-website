@@ -1,8 +1,8 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
 import TopProjects from "../components/topProjects"
 import ProjectsInfo from "../components/projectsInfo"
+import Header from "../components/header"
 
 import Seo from "../components/seo"
 
@@ -10,10 +10,17 @@ import "../components/cssFiles/projects.css"
 
 const Projects = () => (
   <body className="wholeProjects">
-    <Layout>
-      <TopProjects />
-      <ProjectsInfo />
-    </Layout>
+    <Header />
+    <TopProjects />
+    <ProjectsInfo />
+    <footer
+      style={{
+        fontSize: `var(--font-sm)`,
+      }}
+    >
+      © {new Date().getFullYear()} &middot; Made by Jeongmin Choi
+      {` `}
+    </footer>
   </body>
 )
 
