@@ -28,3 +28,12 @@
   background-color: none;
   border-radius: 10px;
 }
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 0.7em;
+}
