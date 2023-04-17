@@ -1,27 +1,23 @@
-.projectInfo {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  margin: 0 auto;
-}
-
 .projectsContainer {
+  display: flex;
+  flex-direction: column;
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 2rem;
-  padding: 2rem;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 3rem;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
+  row-gap: 2.5rem;
 }
 
 .project {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
+  padding: 3rem;
+  border-style: solid;
   border-radius: 10px;
-  border-color: black;
+  border-color: rgb(245, 241, 241);
 }
 
 .project:hover {
