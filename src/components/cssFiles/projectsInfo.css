@@ -8,16 +8,27 @@
 }
 
 .projectsContainer {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.talkieImg {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: white;
   border-radius: 10px;
-  background-color: none;
 }
 
 .project {
   display: flex;
   flex-direction: row;
+  padding: 2rem;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.project:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.talkieImg {
+  background-color: none;
+  border-radius: 10px;
 }

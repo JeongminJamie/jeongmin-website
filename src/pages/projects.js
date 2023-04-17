@@ -11,8 +11,10 @@ import "../components/cssFiles/projects.css"
 const Projects = () => (
   <body className="wholeProjects">
     <Header />
-    <TopProjects />
-    <ProjectsInfo />
+    <div className="mainProjects">
+      <TopProjects />
+      <ProjectsInfo />
+    </div>
     <footer
       style={{
         fontSize: `var(--font-sm)`,
