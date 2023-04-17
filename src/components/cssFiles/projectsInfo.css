@@ -7,7 +7,17 @@
   margin: 0 auto;
 }
 
+.projectsContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .talkieImg {
   border-radius: 10px;
   background-color: none;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
 }
