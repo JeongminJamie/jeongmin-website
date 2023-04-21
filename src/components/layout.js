@@ -18,15 +18,15 @@ const Layout = ({ children }) => {
           }}
         >
           <main>{children}</main>
+          <footer
+            style={{
+              fontSize: `var(--font-sm)`,
+            }}
+          >
+            © {new Date().getFullYear()} &middot; Made by Jeongmin Choi
+            {` `}
+          </footer>
         </div>
-        <footer
-          style={{
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Made by Jeongmin Choi
-          {` `}
-        </footer>
       </div>
     </div>
   )

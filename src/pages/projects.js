@@ -14,15 +14,15 @@ const Projects = () => (
     <div className="mainProjects">
       <TopProjects />
       <ProjectsInfo />
+      <footer
+        style={{
+          fontSize: `var(--font-sm)`,
+        }}
+      >
+        © {new Date().getFullYear()} &middot; Made by Jeongmin Choi
+        {` `}
+      </footer>
     </div>
-    <footer
-      style={{
-        fontSize: `var(--font-sm)`,
-      }}
-    >
-      © {new Date().getFullYear()} &middot; Made by Jeongmin Choi
-      {` `}
-    </footer>
   </body>
 )
 
