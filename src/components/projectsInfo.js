@@ -21,7 +21,7 @@ const ProjectsInfo = () => (
           <p>
             Talkie project helps users prepare for tech interviews by allowing them
             record audio answers to interview questions, other users provide
-            feedback to the answers
+            feedback to the answers.
           </p>
         </div>
       </div>
@@ -38,6 +38,7 @@ const ProjectsInfo = () => (
         <div className="title">Don Don</div>
         <div className="description">
           <p>Technologies: Express, Node, HTML, SASS, jQuery, Ajax</p>
+          <p>Don Don project is a food ordering website that customers can order food online, to pick up later. Customers can browse the menu and place orders, and the restaurant owner can manage orders and update the menu as desired.</p>
         </div>
       </div>
     </div>
