@@ -27,8 +27,8 @@ const Contact = () => {
           console.log(error.text)
         }
       )
-    e.target.reset()
-    alert("Would like to you send this to Jeongmin Choi?")
+      alert("Would like to you send this to Jeongmin Choi?")
+      e.target.reset()
   }
   return (
     <Layout>
