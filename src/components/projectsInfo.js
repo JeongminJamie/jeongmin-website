@@ -18,6 +18,11 @@ const ProjectsInfo = () => (
           <p>
             Technologies: React, Express, PostgreSQL, Media Recorder API, AWS S3
           </p>
+          <p>
+            Talkie project helps users prepare for tech interviews by allowing them
+            record audio answers to interview questions, other users provide
+            feedback to the answers
+          </p>
         </div>
       </div>
     </div>
