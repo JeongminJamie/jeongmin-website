@@ -1,16 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+
 import "./cssFiles/projectsInfo.css"
 
 const ProjectsInfo = () => (
   <div className="projectsContainer">
     <div className="project">
-      <StaticImage
-        className="img"
-        src="../images/Talkie.png"
-        objectFit="cover"
-      />
+      <div className="talkie_img"></div>
       <div className="projectContent">
         <div className="title">Talkie</div>
         <div className="descriptionCt">
@@ -34,11 +30,7 @@ const ProjectsInfo = () => (
       </div>
     </div>
     <div className="project">
-      <StaticImage
-        className="img"
-        src="../images/DonDon.png"
-        objectFit="cover"
-      />
+      <div className="dondon_img"></div>
       <div className="projectContent">
         <div className="title">Don Don</div>
         <div className="descriptionCt">
@@ -63,11 +55,7 @@ const ProjectsInfo = () => (
       </div>
     </div>
     <div className="project">
-      <StaticImage
-        className="img"
-        src="../images/Scheduler.png"
-        style={{ objectFit: "contain" }}
-      />
+      <div className="scheduler_img"></div>
       <div className="projectContent">
         <div className="title">Interview Scheduler</div>{" "}
         <div className="descriptionCt">

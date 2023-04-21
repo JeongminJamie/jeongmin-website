@@ -26,10 +26,32 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.img {
-  border-radius: 10px;
+.talkie_img {
   width: 400px;
   height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url(../../images/Talkie.png);
+  background-size: cover;
+  object-position: center;
+}
+.dondon_img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url(../../images/DonDon.png);
+  background-size: cover;
+  object-position: center;
+}
+.scheduler_img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url(../../images/Scheduler.png);
+  background-size: cover;
+  object-position: center;
 }
 
 .projectContent {
