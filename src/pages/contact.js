@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_qkdkr9n",
+        "template_fw05vtp",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "EvBn3DUovtIEA6P5i"
       )
       .then(
         result => {
@@ -27,6 +27,7 @@ const Contact = () => {
           console.log(error.text)
         }
       )
+    e.target.reset()
   }
   return (
     <Layout>
