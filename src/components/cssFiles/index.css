@@ -80,3 +80,13 @@ p {
   margin-top: 9%;
   margin-bottom: 8em;
 }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .contentInfo {
+    font-size: 0.8em;
+  }
+}
