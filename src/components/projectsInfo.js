@@ -11,7 +11,8 @@ const ProjectsInfo = () => (
         <div className="title">Talkie</div>
         <div className="descriptionCt">
           <p className="description">
-            Technologies: React, Express, PostgreSQL, Media Recorder API, AWS S3
+            <span>Technologies:</span> React, Express, PostgreSQL, Media
+            Recorder API, AWS S3
           </p>
           <p className="description">
             Talkie project helps users prepare for tech interviews by allowing
@@ -35,7 +36,7 @@ const ProjectsInfo = () => (
         <div className="title">Don Don</div>
         <div className="descriptionCt">
           <p className="description">
-            Technologies: Express, Node, HTML, SASS, jQuery, Ajax
+          <span>Technologies:</span> Express, Node, HTML, SASS, jQuery, Ajax
           </p>
           <p className="description">
             Don Don project is a food ordering website that customers can order
@@ -59,7 +60,7 @@ const ProjectsInfo = () => (
       <div className="projectContent">
         <div className="title">Interview Scheduler</div>{" "}
         <div className="descriptionCt">
-          <p className="description">Technologies: React</p>
+          <p className="description"> <span>Technologies:</span> React</p>
           <p className="description">
             Interview Scheduler is a web that users can book, cancel, and delete
             interviews in real-time
