@@ -10,8 +10,6 @@ const ProjectsInfo = () => (
         className="img"
         src="../images/Talkie.png"
         objectFit="cover"
-        width={420}
-        height={250}
       />
       <div className="projectContent">
         <div className="title">Talkie</div>
@@ -25,7 +23,7 @@ const ProjectsInfo = () => (
             provide feedback to the answers.
           </p>
         </div>
-        <div classsName="repoButtonCt">
+        <div classsName="repoLinkCt">
           <Link
             to="https://github.com/khabizat/Talkie"
             style={{ textDecorationLine: `none` }}
@@ -40,8 +38,6 @@ const ProjectsInfo = () => (
         className="img"
         src="../images/DonDon.png"
         objectFit="cover"
-        width={420}
-        height={250}
       />
       <div className="projectContent">
         <div className="title">Don Don</div>
@@ -56,7 +52,7 @@ const ProjectsInfo = () => (
             the menu as desired.
           </p>
         </div>
-        <div classsName="repoButtonCt">
+        <div classsName="repoLinkCt">
           <Link
             to="https://github.com/JeongminJamie/food-pickup-app"
             style={{ textDecorationLine: `none` }}
@@ -71,8 +67,6 @@ const ProjectsInfo = () => (
         className="img"
         src="../images/Scheduler.png"
         style={{ objectFit: "contain" }}
-        width={420}
-        height={250}
       />
       <div className="projectContent">
         <div className="title">Interview Scheduler</div>{" "}
@@ -83,7 +77,7 @@ const ProjectsInfo = () => (
             interviews in real-time
           </p>
         </div>
-        <div classsName="repoButtonCt">
+        <div classsName="repoLinkCt">
           <Link
             to="https://github.com/JeongminJamie/scheduler"
             style={{ textDecorationLine: `none` }}
