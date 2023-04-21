@@ -29,3 +29,9 @@
 .Icon:hover {
   background-color: rgb(213, 233, 241);
 }
+
+@media screen and (max-width: 900px) {
+  section {
+    visibility: hidden;
+  }
+}
