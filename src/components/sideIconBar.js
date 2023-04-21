@@ -5,7 +5,7 @@ import "./cssFiles/sideIconBar.css"
 
 const SideIconBar = () => (
   <section className="heroIcons">
-    <div className="github_icon">
+    <div className="Icon">
       <Link to="https://github.com/JeongminJamie" className="iconLink">
         <img
           src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg"
@@ -18,7 +18,7 @@ const SideIconBar = () => (
         />
       </Link>
     </div>
-    <div className="linkedin_icon">
+    <div className="Icon">
       <Link
         to="https://www.linkedin.com/in/jeongmin-choi-43508a20a/"
         className="iconLink"
@@ -34,7 +34,7 @@ const SideIconBar = () => (
         />
       </Link>
     </div>
-    <div className="resume_icon">
+    <div className="Icon">
       <Link
         to="https://resume.creddle.io/resume/2an8hfmoz4n"
         className="iconLink"
