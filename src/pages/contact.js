@@ -28,6 +28,7 @@ const Contact = () => {
         }
       )
     e.target.reset()
+    alert("Would like to you send this to Jeongmin Choi?")
   }
   return (
     <Layout>
@@ -61,7 +62,7 @@ const Contact = () => {
               className="messageInput"
               type="text"
               placeholder="Enter Your Message"
-              name="user_message"
+              name="message"
               required
               cols="30"
               rows="10"
