@@ -5,6 +5,7 @@ import "./cssFiles/projectsInfo.css"
 
 const ProjectsInfo = () => (
   <div className="projectsContainer">
+    {/* Talkie section */}
     <div className="project">
       <div className="talkie_img"></div>
       <div className="projectContent">
@@ -30,13 +31,15 @@ const ProjectsInfo = () => (
         </div>
       </div>
     </div>
+
+    {/* Don Don section */}
     <div className="project">
       <div className="dondon_img"></div>
       <div className="projectContent">
         <div className="title">Don Don</div>
         <div className="descriptionCt">
           <p className="description">
-          <span>Technologies:</span> Express, Node, HTML, SASS, jQuery, Ajax
+            <span>Technologies:</span> Express, Node, HTML, SASS, jQuery, Ajax
           </p>
           <p className="description">
             Don Don project is a food ordering website that customers can order
@@ -55,12 +58,17 @@ const ProjectsInfo = () => (
         </div>
       </div>
     </div>
+
+    {/* Scheduler section */}
     <div className="project">
       <div className="scheduler_img"></div>
       <div className="projectContent">
         <div className="title">Interview Scheduler</div>{" "}
         <div className="descriptionCt">
-          <p className="description"> <span>Technologies:</span> React</p>
+          <p className="description">
+            {" "}
+            <span>Technologies:</span> React
+          </p>
           <p className="description">
             Interview Scheduler is a web that users can book, cancel, and delete
             interviews in real-time
