@@ -91,9 +91,7 @@ const Header = () => {
           </div>
         )}
       </div>
-      <div>
-        <HeaderMenu />
-      </div>
+      <div>{menuClicked ? <HeaderMenu /> : <></>}</div>
     </>
   )
 }

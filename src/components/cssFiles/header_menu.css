@@ -1,0 +1,10 @@
+.header_menu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
