@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import "./cssFiles/header_menu.css"
 
 const HeaderMenu = () => {
+  const [isClicked, setIsClicked] = useState("")
+
   return (
     <div className="header_menu">
       <Link
@@ -12,7 +14,12 @@ const HeaderMenu = () => {
           textDecoration: `none`,
         }}
       >
-        <div className="first_menu">
+        <div
+          className={({ isClicked }) => {
+            return isClicked === "Home" ? "clicked_menu" : "menu"
+          }}
+          onClick={() => setIsClicked("Home")}
+        >
           HOME
         </div>
       </Link>
@@ -22,7 +29,12 @@ const HeaderMenu = () => {
           textDecoration: `none`,
         }}
       >
-        <div className="menu">ABOUT</div>
+        <div
+          className={isClicked === "About" ? "menu" : "clicked_menu"}
+          onClick={() => setIsClicked("About")}
+        >
+          ABOUT
+        </div>
       </Link>
       <Link
         to="/projects"
@@ -30,7 +42,9 @@ const HeaderMenu = () => {
           textDecoration: `none`,
         }}
       >
-        <div className="menu">PROJECTS</div>
+        <div className="menu" onClick={() => setIsClicked("Projects")}>
+          PROJECTS
+        </div>
       </Link>
       <Link
         to="/contact"
@@ -38,7 +52,9 @@ const HeaderMenu = () => {
           textDecoration: `none`,
         }}
       >
-        <div className="menu">CONTACT</div>
+        <div className="menu" onClick={() => setIsClicked("Contact")}>
+          CONTACT
+        </div>
       </Link>
     </div>
   )

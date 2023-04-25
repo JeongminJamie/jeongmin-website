@@ -2,23 +2,31 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 
 .menu {
   display: flex;
   justify-content: flex-end;
+  font-weight: 800;
+  font-size: 0.9em;
   border-bottom: solid;
   border-color: rgb(245, 241, 241);
-  padding: 1.25em;
+  padding: 1.5em;
 }
 
-.first_menu {
+.menu:hover {
+  color: skyblue;
+}
+
+.clicked_menu {
   display: flex;
   justify-content: flex-end;
-  border-top: solid;
+  font-weight: 800;
+  font-size: 0.9em;
   border-bottom: solid;
   border-color: rgb(245, 241, 241);
-  padding: 1.25em;
+  padding: 1.5em;
+  color: skyblue;
 }
