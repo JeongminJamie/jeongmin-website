@@ -1,47 +1,53 @@
 import React from "react"
-import { Router, NavLink } from "react-router-dom"
+import { Link } from "gatsby"
 
 import "./cssFiles/header_menu.css"
 
 const HeaderMenu = () => {
+  const activeStyles = {
+    color: "skyblue",
+  }
+
   return (
     <div className="header_menu">
-      <NavLink
+      <Link
         to="/"
         style={{
           textDecoration: `none`,
         }}
+        activeStyle={activeStyles}
       >
-        <div className={({ isActive }) => (isActive ? "clicked_menu" : "menu")}>
-          HOME
-        </div>
-      </NavLink>
-      <NavLink
+        <div className="menu">HOME</div>
+      </Link>
+      <Link
         to="/about"
         style={{
           textDecoration: `none`,
         }}
+        activeStyle={activeStyles}
       >
-        <div className={({ isActive }) => (isActive ? "clicked_menu" : "menu")}>
+        <div className="menu" activeStyle={activeStyles}>
           ABOUT
         </div>
-      </NavLink>
-      <NavLink
+      </Link>
+      <Link
         to="/projects"
         style={{
           textDecoration: `none`,
         }}
+        activeStyle={activeStyles}
       >
         <div className="menu">PROJECTS</div>
-      </NavLink>
-      <NavLink
+      </Link>
+      <Link
         to="/contact"
         style={{
           textDecoration: `none`,
         }}
+        activeStyle={activeStyles}
       >
         <div className="menu">CONTACT</div>
-      </NavLink>
+      </Link>
     </div>
   )
 }
