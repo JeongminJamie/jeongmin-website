@@ -1,61 +1,47 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React from "react"
+import { Router, NavLink } from "react-router-dom"
 
 import "./cssFiles/header_menu.css"
 
 const HeaderMenu = () => {
-  const [isClicked, setIsClicked] = useState("")
-
   return (
     <div className="header_menu">
-      <Link
+      <NavLink
         to="/"
         style={{
           textDecoration: `none`,
         }}
       >
-        <div
-          className={({ isClicked }) => {
-            return isClicked === "Home" ? "clicked_menu" : "menu"
-          }}
-          onClick={() => setIsClicked("Home")}
-        >
+        <div className={({ isActive }) => (isActive ? "clicked_menu" : "menu")}>
           HOME
         </div>
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to="/about"
         style={{
           textDecoration: `none`,
         }}
       >
-        <div
-          className={isClicked === "About" ? "menu" : "clicked_menu"}
-          onClick={() => setIsClicked("About")}
-        >
+        <div className={({ isActive }) => (isActive ? "clicked_menu" : "menu")}>
           ABOUT
         </div>
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to="/projects"
         style={{
           textDecoration: `none`,
         }}
       >
-        <div className="menu" onClick={() => setIsClicked("Projects")}>
-          PROJECTS
-        </div>
-      </Link>
-      <Link
+        <div className="menu">PROJECTS</div>
+      </NavLink>
+      <NavLink
         to="/contact"
         style={{
           textDecoration: `none`,
         }}
       >
-        <div className="menu" onClick={() => setIsClicked("Contact")}>
-          CONTACT
-        </div>
-      </Link>
+        <div className="menu">CONTACT</div>
+      </NavLink>
     </div>
   )
 }
