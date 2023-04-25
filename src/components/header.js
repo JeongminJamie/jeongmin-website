@@ -1,19 +1,11 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { Link } from "gatsby"
+import { useResizeDetector } from "react-resize-detector"
 
 import "./cssFiles/header.css"
 
 const Header = () => {
-  const [isSixhundred, setIsSixhundred] = useState(false)
-
-  // figuring out the window size
-  useEffect(() => {
-    const currentSize = window.innerWidth
-
-    if (currentSize < 600) {
-      setIsSixhundred(true)
-    }
-  }, [isSixhundred])
+  const { width } = useResizeDetector()
 
   return (
     <div className="header_main">
@@ -31,8 +23,15 @@ const Header = () => {
         </Link>
       </div>
       {/* set header styling for width 600 */}
-      {isSixhundred ? (
-        <div>Jeongmin</div>
+      {width <= 600 ? (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          viewBox="0 0 24 24"
+        >
+          <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+        </svg>
       ) : (
         <div className="header_nav">
           <ul className="nav">
