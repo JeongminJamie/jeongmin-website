@@ -33,25 +33,9 @@ const Header = () => {
         {width < 600 ? (
           <div onClick={() => setMenuClicked(!menuClicked)}>
             {menuClicked ? (
-              <svg
-                className="icon"
-                height="32"
-                width="32"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414 4.242 4.242-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414-4.242-4.242 4.242-4.242z" />
-              </svg>
+              <div className="menu_icon"></div>
             ) : (
-              <svg
-                className="icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-              >
-                <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
-              </svg>
+              <div className="x_icon"></div>
             )}
           </div>
         ) : (

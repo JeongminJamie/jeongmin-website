@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(248, 252, 254);
+  background-color: white;
 }
 
 .nav {
@@ -64,8 +64,18 @@ ul {
   margin-top: 30px;
 }
 
-.icon {
+.menu_icon {
+  background-image: url(../../images/header_menu.png);
   cursor: pointer;
+  width: 120px;
+  height: 90px;
+}
+
+.x_icon {
+  background-image: url(../../images/xIcon.png);
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
 }
 
 @media screen and (max-width: 900px) {
