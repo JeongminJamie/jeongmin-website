@@ -4,12 +4,14 @@ import { Link } from "gatsby"
 import "./cssFiles/header.css"
 
 const Header = () => {
+  //useState declaration
   const [width, setWidth] = useState(window.innerWidth)
+  const [menuClicked, setMenuClicked] = useState(false)
 
   useEffect(() => {
     window.addEventListener("resize", () => setWidth(window.innerWidth))
   }, [])
-  
+
   return (
     <div className="header_main">
       <div>
@@ -25,16 +27,29 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      {/* set header styling for width 600 */}
+      {/* show a menu icon if the screen is under 600 and appear x icon when clicked the menu icon */}
       {width < 600 ? (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="30"
-          height="30"
-          viewBox="0 0 24 24"
-        >
-          <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
-        </svg>
+        <div onClick={() => setMenuClicked(!menuClicked)}>
+          {menuClicked ? (
+            <svg
+              height="30"
+              width="30"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414 4.242 4.242-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414-4.242-4.242 4.242-4.242z" />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+            </svg>
+          )}
+        </div>
       ) : (
         <div className="header_nav">
           <ul className="nav">
