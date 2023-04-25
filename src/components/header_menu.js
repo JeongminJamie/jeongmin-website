@@ -12,7 +12,9 @@ const HeaderMenu = () => {
           textDecoration: `none`,
         }}
       >
-        <div className="menu">HOME</div>
+        <div className="first_menu">
+          HOME
+        </div>
       </Link>
       <Link
         to="/about"
