@@ -72,4 +72,8 @@ ul {
   .myName {
     font-size: 0.8;
   }
+
+  .faceLogo_name {
+    margin-left: 1em;
+  }
 }
