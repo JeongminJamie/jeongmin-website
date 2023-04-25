@@ -63,3 +63,9 @@ ul {
 .myName {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 900px) {
+  .myName {
+    font-size: 0.8;
+  }
+}
