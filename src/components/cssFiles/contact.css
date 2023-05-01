@@ -101,10 +101,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  .contactMeText {
+    font-size: 1.5em;
+  }
+
   .formContainer {
     visibility: visible;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
   }
 }
