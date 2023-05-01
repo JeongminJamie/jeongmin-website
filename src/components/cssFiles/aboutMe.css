@@ -15,3 +15,13 @@
   max-width: fit-content;
   font-size: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+  .aboutMeText {
+    font-size: 1.5em;
+  }
+
+  .aboutMeContent {
+    font-size: 17px;
+  }
+}

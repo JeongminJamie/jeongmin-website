@@ -71,3 +71,13 @@
   color: #666;
   border-radius: 10%;
 }
+
+@media screen and (max-width: 1200px) {
+  .aboutMeText {
+    font-size: 1.5em;
+  }
+
+  .aboutMeContent {
+    font-size: 17px;
+  }
+}
