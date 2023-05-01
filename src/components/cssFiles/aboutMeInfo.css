@@ -89,3 +89,18 @@
     font-size: 0.8em;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .aboutMeInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introductionContainer {
+    width: 100%;
+  }
+
+  .aboutMeSkillContainer {
+    width: 100%;
+  }
+}
