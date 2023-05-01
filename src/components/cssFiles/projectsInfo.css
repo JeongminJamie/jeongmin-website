@@ -112,4 +112,8 @@
   .description {
     font-size: 1.3em;
   }
+
+  .repoLink {
+    font-size: 0.9em;
+  }
 }
