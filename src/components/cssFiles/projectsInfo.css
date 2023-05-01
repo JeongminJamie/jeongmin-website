@@ -88,3 +88,28 @@
   box-shadow: inset 60px 0 0 0 #54b3d6;
   color: white;
 }
+
+@media screen and (max-width: 1200px) {
+  .talkie_img {
+    width: 350px;
+    height: 150px;
+  }
+
+  .dondon_img {
+    width: 350px;
+    height: 150px;
+  }
+
+  .scheduler_img {
+    width: 350px;
+    height: 150px;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+
+  .description {
+    font-size: 1.3em;
+  }
+}
