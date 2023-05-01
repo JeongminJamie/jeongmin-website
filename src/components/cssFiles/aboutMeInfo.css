@@ -73,11 +73,19 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .aboutMeText {
-    font-size: 1.5em;
+  .introductionText {
+    font-size: 1.2em;
   }
 
-  .aboutMeContent {
-    font-size: 17px;
+  .skillText {
+    font-size: 1.2em;
+  }
+
+  .introContent {
+    font-size: 16px;
+  }
+
+  .skill {
+    font-size: 0.8em;
   }
 }
