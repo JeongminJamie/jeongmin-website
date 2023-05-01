@@ -94,5 +94,17 @@
 @media screen and (max-width: 900px) {
   .formContainer {
     visibility: visible;
+    width: 85%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formContainer {
+    visibility: visible;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
