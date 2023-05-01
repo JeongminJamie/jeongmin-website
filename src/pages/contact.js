@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React, { useRef, useState, useEffect } from "react"
 import emailjs from "@emailjs/browser"
 
 import Layout from "../components/layout"
@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import "../components/cssFiles/contact.css"
 
 const Contact = () => {
+  // sending an email to me from user side
   const form = useRef()
 
   const sendEmail = e => {
