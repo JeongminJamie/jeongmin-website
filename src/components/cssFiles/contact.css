@@ -101,7 +101,8 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) { */
+@media (max-width: 600px) {
   .contactMeText {
     font-size: 1.5em;
   }
