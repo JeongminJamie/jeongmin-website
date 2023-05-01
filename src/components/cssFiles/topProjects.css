@@ -25,3 +25,13 @@
     font-size: 17px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .topProjectsText {
+    font-size: 1.5em;
+  }
+
+  .topProjectsContent {
+    font-size: 15px;
+  }
+}
