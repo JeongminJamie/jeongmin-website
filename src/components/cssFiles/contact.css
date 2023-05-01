@@ -85,6 +85,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* resizing */
 @media screen and (max-width: 1200px) {
   .contactMeText {
     font-size: 1.7em;
