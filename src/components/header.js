@@ -33,9 +33,9 @@ const Header = () => {
         {width < 600 ? (
           <div onClick={() => setMenuClicked(!menuClicked)}>
             {menuClicked ? (
-              <div className="menu_icon"></div>
-            ) : (
               <div className="x_icon"></div>
+            ) : (
+              <div className="menu_icon"></div>
             )}
           </div>
         ) : (
