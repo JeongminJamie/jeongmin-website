@@ -90,3 +90,9 @@
     font-size: 1.7em;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .formContainer {
+    visibility: visible;
+  }
+}

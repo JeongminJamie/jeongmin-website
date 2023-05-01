@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react"
+import React, { useRef } from "react"
 import emailjs from "@emailjs/browser"
 
 import Layout from "../components/layout"
@@ -28,9 +28,10 @@ const Contact = () => {
           console.log(error.text)
         }
       )
-      alert("Would like to you send this to Jeongmin Choi?")
-      e.target.reset()
+    alert("Would like to you send this to Jeongmin Choi?")
+    e.target.reset()
   }
+
   return (
     <Layout>
       <div className="contactContainer">
