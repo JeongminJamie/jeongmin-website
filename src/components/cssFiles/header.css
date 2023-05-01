@@ -75,8 +75,9 @@ ul {
 .x_icon {
   background-image: url(../../images/xIcon.png);
   cursor: pointer;
-  width: 32px;
-  height: 32px;
+  width: 46px;
+  height: 46px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 900px) {
