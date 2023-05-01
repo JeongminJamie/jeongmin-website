@@ -24,9 +24,11 @@
   margin: 0 auto;
   font-size: 18px;
 }
+
 .contactMeText {
   font-size: 2em;
 }
+
 .emailForm {
   display: flex;
   flex-direction: column;
@@ -81,4 +83,16 @@
 
 .messageInput::placeholder {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .contactMeText {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contactMeText {
+    font-size: 1.7em;
+  }
 }
