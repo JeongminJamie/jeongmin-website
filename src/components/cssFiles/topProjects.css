@@ -35,3 +35,9 @@
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .topProjects {
+    margin-top: 0;
+  }
+}
