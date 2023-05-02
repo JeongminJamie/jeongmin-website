@@ -13,6 +13,11 @@ const Header = () => {
     window.addEventListener("resize", () => setWidth(window.innerWidth))
   }, [])
 
+  // make activeStyle when clicked
+  const activeStyles = {
+    color: "skyblue",
+  }
+
   return (
     <>
       <div className="header_main">
@@ -46,6 +51,7 @@ const Header = () => {
                 style={{
                   textDecoration: `none`,
                 }}
+                activeStyle={activeStyles}
               >
                 <li>HOME</li>
               </Link>
@@ -54,6 +60,7 @@ const Header = () => {
                 style={{
                   textDecoration: `none`,
                 }}
+                activeStyle={activeStyles}
               >
                 <li>ABOUT</li>
               </Link>
@@ -62,6 +69,7 @@ const Header = () => {
                 style={{
                   textDecoration: `none`,
                 }}
+                activeStyle={activeStyles}
               >
                 <li>PROJECTS</li>
               </Link>
@@ -70,6 +78,7 @@ const Header = () => {
                 style={{
                   textDecoration: `none`,
                 }}
+                activeStyle={activeStyles}
               >
                 <li>CONTACT</li>
               </Link>
