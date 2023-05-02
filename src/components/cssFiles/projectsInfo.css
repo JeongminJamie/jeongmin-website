@@ -162,3 +162,39 @@
     row-gap: 2rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .talkie_img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .dondon_img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .scheduler_img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .projectsContainer {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem;
+    row-gap: 1rem;
+  }
+
+  .title {
+    font-size: 0.9em;
+  }
+
+  .description {
+    font-size: 1.2em;
+  }
+
+  .repoLink {
+    font-size: 0.8em;
+  }
+}

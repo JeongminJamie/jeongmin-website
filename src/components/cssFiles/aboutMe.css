@@ -30,4 +30,8 @@
   .aboutMe {
     margin-top: 0;
   }
+
+  .aboutMeText {
+    font-size: 1.2em;
+  }
 }

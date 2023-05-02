@@ -36,8 +36,12 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .topProjects {
     margin-top: 0;
+  }
+
+  .topProjectsText {
+    font-size: 1.2em;
   }
 }
