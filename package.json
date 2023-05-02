@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "browser-monads": "^1.0.0",
     "gatsby": "^5.6.1",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.6.0",
