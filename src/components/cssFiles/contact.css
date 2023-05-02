@@ -106,10 +106,37 @@
     font-size: 1.5em;
   }
 
+  .contactContent {
+    font-size: 15px;
+  }
+
   .formContainer {
     visibility: visible;
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contactMeText {
+    font-size: 1.2em;
+  }
+
+  .contactContent {
+    font-size: 15px;
+  }
+
+  .formContainer {
+    padding: 25px;
+    margin: 0 auto;
+  }
+
+  .submitBtn {
+    font-size: 0.8em;
+  }
+
+  .formtext {
+    font-size: 0.8em;
   }
 }
