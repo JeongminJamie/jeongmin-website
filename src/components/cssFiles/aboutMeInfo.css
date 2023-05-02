@@ -108,8 +108,18 @@
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  .aboutMeInfo {
-    margin-top: 2em;
+@media screen and (max-width: 400px) {
+  .skill {
+    font-size: 0.7em;
+    padding: 0.6rem 1.6rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
   }
-} */
+
+  .contactButton {
+    margin-top: 1em;
+    padding: 0.7rem 1.5rem;
+    font-weight: 800;
+    font-size: 0.8em;
+  }
+}
